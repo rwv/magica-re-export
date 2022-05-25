@@ -5,6 +5,8 @@
   "main": "lib/index.js",
   "type": "module",
   "scripts": {
+    "prepublish": "npm run build",
+    "build": "npm run build:script && npm run build:types",
     "build:script": "node build.js",
     "build:types": "tsc --emitDeclarationOnly",
     "test": "echo \"Error: no test specified\" && exit 1"
