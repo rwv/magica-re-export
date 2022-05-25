@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/rwv/magica-re-export#readme",
   "devDependencies": {
+    "assert": "^2.0.0",
     "esbuild": "^0.14.39",
     "magica": "^0.2.17",
     "path-browserify": "^1.0.1",
@@ -32,7 +33,6 @@
   "browser": {
     "path": "path-browserify",
     "fs": false,
-    "child_process": false,
-    "assert": false
+    "child_process": false
   }
 }
