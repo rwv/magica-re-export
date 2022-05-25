@@ -7,6 +7,6 @@
       "noImplicitAny": false,
       "esModuleInterop": true,
       "moduleResolution": "node",
-      "outDir": "dist"
+      "outDir": "lib"
     }
 }
