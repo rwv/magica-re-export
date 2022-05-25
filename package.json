@@ -2,7 +2,7 @@
   "name": "magica-re-export",
   "version": "1.0.0",
   "description": "Re-export magica as ES module",
-  "main": "dist/index.js",
+  "main": "lib/index.js",
   "type": "module",
   "scripts": {
     "build:script": "node build.js",
