@@ -1,6 +1,6 @@
 {
   "name": "magica-re-export",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Re-export magica as ES module",
   "main": "lib/index.js",
   "module": "lib/index.js",
