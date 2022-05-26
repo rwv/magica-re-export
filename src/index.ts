@@ -4,4 +4,4 @@ const global = self as any;
 global.tempDouble = undefined;
 global.tempI64 = undefined;
 
-export * from "magica";
+export { main } from "magica";
